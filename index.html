@@ -4,31 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
 <div class="navcss">
-
-    <div class="logo">
-    <img src="../assets/logo.png" alt="Logo">
+    <div class="nav-left">
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/logo.png" alt="Logo">
+            </a>
+        </div>
+        <ul class="main-links">
+            <li><a href="HTML/categories.html">Categories</a></li>
+            <li><a href="HTML/hotdeals.html">Hot Deals</a></li>
+        </ul>
     </div>
 
-    <div class="menu">
-    <ul>
-    <li><a href="HTML/hotdeals.html">Hot Deals</a></li>
-    <li><a href="HTML/about.html">About Us</a></li>
-    <li><a href="HTML/contact.html">Contact</a></li>
-    <li><a href="HTML/cart.html">Cart</a></li>
-    </ul>
+    <div class="nav-center">
+        <div class="search-container">
+            <input type="text" placeholder="Search Here...">
+            <button type="submit" class="search-btn">
+                <img src="assets/search.png" alt="Search">
+            </button>
+        </div>
+    </div>
+
+    <div class="nav-right">
+        <ul class="utility-links">
+            <li><a href="HTML/about.html">About Us</a></li>
+            <li><a href="HTML/contact.html">Contact</a></li>
+            <li><a href="HTML/cart.html">Cart</a></li>
+            <li><a href="HTML/login.html">Log in</a></li>
+        </ul>
     </div>
 </div>
+
 <div class="secondary-nav">
     <ul>
-    <li><a href="HTML/hotdeals.html">laptops</a></li>
-    <li><a href="HTML/hotdeals.html">Desktops</a></li>
-    <li><a href="HTML/hotdeals.html">Phones</a></li>
+        <li class="nav-label">Popular Categories:</li>
+        <li><a href="HTML/hotdeals.html">Laptops</a></li>
+        <li><a href="HTML/hotdeals.html">Desktops</a></li>
+        <li><a href="HTML/hotdeals.html">Phones</a></li>
     </ul>
 </div>
+
+
 
 </body>
 </html>
