@@ -1,0 +1,16 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-color: #FFFCFF;
+}
+
+.login-container .username input{
+  width: 350px;
+  height: 50px;
+}
+.login-container .password input{
+  width: 350px;
+  height: 50px;
+}
