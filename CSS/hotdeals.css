@@ -1,0 +1,67 @@
+body{
+  background-color: #FFFCFF;
+  font-family: sans-source-pro, sans-serif;
+}
+
+.page-content {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 85%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Tech Items */
+.tech-table {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.tech-table img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+}
+
+/* Products */
+.product-table {
+  width: 80%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.product-table td {
+  width: 25%;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.product-table img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.product-table h4 {
+  color: #277AA3;
+  font-size: 14px;
+}
+
+.product-table p {
+  font-size: 12px;
+}
+
+.add-btn {
+  background-color: #277AA3;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 125px;
+  height: 40px;
+}

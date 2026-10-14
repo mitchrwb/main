@@ -192,3 +192,12 @@ body {
   background-color: #ADD9F4;
   color: #247BA0;
 }
+
+/* Footer Styles */
+footer {
+  background-color: #50514F;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+  font-family: sans-serif;
+}

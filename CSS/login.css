@@ -1,9 +1,12 @@
+body{
+  background-color: #FFFCFF;
+}
+
 .login-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 40vh;
-  background-color: #FFFCFF;
 }
 
 .login-container .username input{
