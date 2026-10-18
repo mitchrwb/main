@@ -181,7 +181,8 @@ body {
 
 .dropdown-content a:hover {
   background-color: #ADD9F4;
-  color:#247BA0
+  color:#247BA0;
+  font-family: sans-source-pro, sans-serif;
 }
 
 .dropdown:hover .dropdown-content {

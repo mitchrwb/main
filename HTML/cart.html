@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="../CSS/cart.css">
 </head>
-
 <body>
+
 <!-- Navigation Bar -->
 <div class="navcss">
     <div class="nav-left">
@@ -58,9 +59,53 @@
     </ul>
 </div>
 
+<h1 class="cart-title">Cart (2)</h1>
 
-
-
+<table class="cart-table">
+    <tr>
+        <td class="cart-left">
+            <table class="cart-item">
+                <tr>
+                    <td class="item-image">
+                        <img src="../assets/logo.png" alt="Product">
+                    </td>
+                    <td class="item-text">
+                        <h4>$249.99</h4>
+                        <p>Logitech MX Master 4 Wireless Mouse - Graphite</p>
+                        <div class="stars">★★★★★</div>
+                    </td>
+                </tr>
+            </table>
+            <table class="cart-item">
+                <tr>
+                    <td class="item-image">
+                        <img src="../assets/logo.png" alt="Product">
+                    </td>
+                    <td class="item-text">
+                        <h4>$268.00</h4>
+                        <p>Logitech G PRO X Superlight 2 Dex Wireless Gaming Mouse - Black</p>
+                        <div class="stars">★★★★</div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="delivery-box">
+            <h2>Delivery Method</h2>
+            <div class="order-box">
+                <p>You are ordering:</p>
+                <ol>
+                    <li>Logitech G PRO X Superlight 2 Dex Wireless Gaming Mouse - Black</li>
+                </ol>
+                <p>and</p>
+                <ol start="2">
+                    <li>Logitech MX Master 4 Wireless Mouse - Graphite</li>
+                </ol>
+            </div>
+            <p>Your items will be delivered in 2 to 5 business days and will begin delivery upon completion. Please press the button below to confirm your order and continue to payment.</p>
+            <a href="error.html"><button class="checkout-btn">Proceed to Checkout</button></a>
+        </td>
+    </tr>
+</table>
 
 </body>
 </html>

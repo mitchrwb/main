@@ -73,4 +73,11 @@ iframe {
   height: 50px;
   font-weight: bold;
   margin-top: 100px;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  transition: 0.3s;
+  background-color: #FFFCFF;
+  cursor: pointer;
 }
