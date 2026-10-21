@@ -59,6 +59,13 @@ body{
   margin-top: 30px;
 }
 
+.about-btn:hover {
+  transition: 0.3s;
+  background-color: #ADD9F4;
+  cursor: pointer;
+  color: #247BA0;
+}
+
 .why-section {
   background-color: #AAD6F0;
   margin-top: 40px;

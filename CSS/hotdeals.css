@@ -65,3 +65,10 @@ body{
   width: 125px;
   height: 40px;
 }
+
+.add-btn:hover {
+  transition: 0.3s;
+  background-color: #ADD9F4;
+  cursor: pointer;
+  color: #247BA0;
+}
